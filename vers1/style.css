@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: #390a0a;
+}
+.album{
+  display: inline-block;
+  max-width: calc(100% / 4);
+  background: lightgrey;
+  padding: 1%;
+  margin: 20px 0;
+}
+
+.img{
+  width: 90%;
+}
+
+.author{
+  text-decoration: underline;
+}
+
+.genre,.year{
+  color: grey;
+}
