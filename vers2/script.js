@@ -12,7 +12,6 @@ function getData() {
 }
 
 function printPoster(data) {
-  console.log(data);
   var target = $('#albums');
   var template = $('#album-template').html();
   var compiled = Handlebars.compile(template);

@@ -22,10 +22,10 @@
   width: 90%;
 }
 
-h2{
+.album h2{
   text-decoration: underline;
 }
 
-h4{
+.album h4{
   color: grey;
 }
