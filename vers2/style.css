@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #390a0a;
+}
 #albums{
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  background: #390a0a;
 }
 .album{
   display: inline-block;
