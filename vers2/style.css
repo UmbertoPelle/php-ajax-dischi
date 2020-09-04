@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#albums{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background: #390a0a;
+}
+.album{
+  display: inline-block;
+  max-width: calc(100% / 4);
+  background: lightgrey;
+  padding: 1%;
+  margin: 20px 10px;
+}
+
+.album img{
+  width: 90%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+h4{
+  color: grey;
+}

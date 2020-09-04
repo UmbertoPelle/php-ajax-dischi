@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dischi - Ajax</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <!-- template albbum  -->
+    <script id="album-template" type="text/x-handlebars-template">
+      <div class="album">
+        <img src="{{poster}}" alt="">
+        <h1>{{title}}</h1>
+        <h2>{{author}}</h2>
+        <h4>{{genre}}</h4>
+        <h4>{{year}}</h4>
+      </div>
+    </script>
+  </head>
+  <body>
+    <div id="albums">
+
+    </div>
+  </body>
+</html>
